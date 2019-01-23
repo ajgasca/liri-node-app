@@ -22,6 +22,9 @@ For concert-this, spotify-this-song, and movie-this: User can add additional inp
 
 ![Spotify This Song Working](https://user-images.githubusercontent.com/43733860/51639364-f5364d00-1f1d-11e9-989a-328c6ba4d116.png)
 
+_**Special Note: Not all Spotify responses come with a preview URL due to record label copyright. In the image above, you can see that I have added a piece of code that will console log a message when there is no preview URL.**_
+
+
 ### movie-this (including user input)
 
 ![Movie This Working](https://user-images.githubusercontent.com/43733860/51639365-f5364d00-1f1d-11e9-8882-380179b9c9b1.png)
@@ -30,7 +33,6 @@ For concert-this, spotify-this-song, and movie-this: User can add additional inp
 
 ![Spotify Default Result](https://user-images.githubusercontent.com/43733860/51639363-f5364d00-1f1d-11e9-9809-9503a0271b5a.png)
 
-_**Special Note: Not all Spotify responses come with a preview URL due to record label copyright. In the image above, you can see that I have added a piece of code that will console log a message when there is no preview URL.**_
 
 ![Movie Default Result](https://user-images.githubusercontent.com/43733860/51639358-f49db680-1f1d-11e9-8ef9-64237e73e4ec.png)
 
