@@ -76,3 +76,20 @@ Song Title: High Hopes
 Album: Pray For The Wicked
 Preview Song: https://p.scdn.co/mp3-preview/f6404b1b3199442271c17d9e1461c3f2a52018f8?cid=145a04a9966d45b58fdc41b17c3f7db6
 ***************
+Song Info :
+Artist: Ace of Base
+Song Title: The Sign
+Album: The Sign (US Album) [Remastered]
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=145a04a9966d45b58fdc41b17c3f7db6
+***************
+movie-this
+Movie Info :
+Title: Roma
+Year: 2018
+IMDB Rating: 8.2
+Rotten Tomatoes Score: 96/100
+Country: Mexico, USA
+Language: Spanish, English, Norwegian, Japanese
+Plot: A story that chronicles a year in the life of a middle-class family's maid in Mexico City in the early 1970s.
+Actors: Yalitza Aparicio, Marina de Tavira, Diego Cortina Autrey, Carlos Peralta
+***************

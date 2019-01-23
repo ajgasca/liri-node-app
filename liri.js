@@ -72,7 +72,7 @@ function concertSearch(userInput) {
 
                 console.log("**************************************");
 
-                let logConcert = "Next Upcoming Event Info :"+"\n" + "Artist: " + concert.lineup[0]+"\n"
+                let logConcert = "concert-this"+"\n" + "Next Upcoming Event Info :"+"\n" + "Artist: " + concert.lineup[0]+"\n"
                 + "Venue: " + concert.venue.name+"\n" + "Location: " + concert.venue.city + "," + " " + concert.venue.region+"\n" + "Date: " + concertDate+"\n" + "***************"+"\n";
 
                 fs.appendFile("log.txt", logConcert, function(err) {
@@ -94,7 +94,7 @@ function concertSearch(userInput) {
 
 function songSearch(userInput) {
 
-    if (userInput === undefined) {
+    if (!userInput) {
 
         userInput = "The Sign Ace of Base";
         
@@ -126,7 +126,7 @@ function songSearch(userInput) {
 
             console.log("Preview Song: " + previewUrl);
 
-            let logSong = "Song Info :"+"\n" + "Artist: " + songs.artists[0].name+"\n"
+            let logSong = "spotify-this-song"+"\n" + "Song Info :"+"\n" + "Artist: " + songs.artists[0].name+"\n"
             + "Song Title: " + songs.name+"\n" + "Album: " + songs.album.name+"\n" + "Preview Song: " + previewUrl+"\n" + "***************"+"\n";
 
             fs.appendFile("log.txt", logSong, function(err) {
@@ -146,3 +146,56 @@ function songSearch(userInput) {
 }
 
 
+function filmSearch(userInput) {
+
+    if(!userInput) {
+
+        userInput = "Mr. Nobody";
+
+        console.log("Can't think of a movie? Here's a great recommendation! And the best part: It's on Netflix!");
+
+    }
+
+    let filmUrl = "http://www.omdbapi.com/?t=" + userInput + "&y=&plot=short&apikey=trilogy";
+
+    axios.get(filmUrl).then(
+
+        function(response) {
+
+            let movies = response.data;
+
+            console.log("Title: " + movies.Title);
+
+            console.log("Year: " + movies.Year);
+
+            console.log("IMDB Rating: " + movies.imdbRating);
+
+            console.log("Rotten Tomatoes Score: " + movies.Ratings[1].Value);
+
+            console.log("Country: " + movies.Country);
+
+            console.log("Language: " + movies.Language);
+
+            console.log("Plot: " + movies.Plot);
+
+            console.log("Actors: " + movies.Actors);
+
+            let logFilm = "movie-this"+"\n" + "Movie Info :"+"\n" + "Title: " + movies.Title+"\n"
+            + "Year: " + movies.Year+"\n" + "IMDB Rating: " + movies.imdbRating+"\n" + "Rotten Tomatoes Score: " + movies.Ratings[1].Value+"\n" + "Country: " + movies.Country+"\n" + "Language: " + movies.Language+"\n" + "Plot: " + movies.Plot+"\n" + "Actors: " + movies.Actors+"\n" + "***************"+"\n";
+
+            fs.appendFile("log.txt", logFilm, function(err) {
+
+                if(err) {
+                    console.log(err);
+                }
+                else {
+                    console.log("Film info added to the log!");
+                }
+            })
+        })
+
+        .catch(function (error) {
+            console.log(error);
+        });
+         
+}
