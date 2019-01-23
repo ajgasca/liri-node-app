@@ -58,3 +58,21 @@ Venue: Mr Smalls Theatre
 Location: Millvale, PA
 Date: 01/22/2019
 ***************
+Song Info :
+Artist: Lady Gaga
+Song Title: Shallow
+Album: A Star Is Born Soundtrack
+Preview Song: Unfortunately there is no preview for this song :( .
+***************
+Song Info :
+Artist: Katy Perry
+Song Title: Firework
+Album: Katy Perry - Teenage Dream: The Complete Confection
+Preview Song: Unfortunately there is no preview for this song :( .
+***************
+Song Info :
+Artist: Panic! At The Disco
+Song Title: High Hopes
+Album: Pray For The Wicked
+Preview Song: https://p.scdn.co/mp3-preview/f6404b1b3199442271c17d9e1461c3f2a52018f8?cid=145a04a9966d45b58fdc41b17c3f7db6
+***************
