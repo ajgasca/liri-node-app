@@ -247,7 +247,7 @@ function randomCommand() {
             filmSearch(randomMovie);
         }
         //If concert-this is listed first in the array execute the following function
-        else if(dataArr[0] === 'concert-this') {
+        else if(dataArr[0] === "concert-this") {
 
             let randomConcert = dataArr[1];
 

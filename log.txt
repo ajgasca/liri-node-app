@@ -125,3 +125,85 @@ Song Title: I Want It That Way
 Album: The Hits--Chapter One
 Preview Song: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=145a04a9966d45b58fdc41b17c3f7db6
 ***************
+concert-this
+Next Upcoming Event Info :
+Artist: Dawes
+Venue: Washington's
+Location: Fort Collins, CO
+Date: 01/23/2019
+***************
+movie-this
+Movie Info :
+Title: Mr. Nobody
+Year: 2009
+IMDB Rating: 7.9
+Rotten Tomatoes Score: 67%
+Country: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+***************
+movie-this
+Movie Info :
+Title: The Social Network
+Year: 2010
+IMDB Rating: 7.7
+Rotten Tomatoes Score: 95%
+Country: USA
+Language: English, French
+Plot: Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, but is later sued by two brothers who claimed he stole their idea, and the co-founder who was later squeezed out of the business.
+Actors: Jesse Eisenberg, Rooney Mara, Bryan Barter, Dustin Fitzsimons
+***************
+spotify-this-song
+Song Info :
+Artist: Ace of Base
+Song Title: The Sign
+Album: The Sign (US Album) [Remastered]
+Preview Song: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=145a04a9966d45b58fdc41b17c3f7db6
+***************
+spotify-this-song
+Song Info :
+Artist: Kendrick Lamar
+Song Title: HUMBLE.
+Album: DAMN.
+Preview Song: Unfortunately there is no preview for this song :( .
+***************
+spotify-this-song
+Song Info :
+Artist: Mumford & Sons
+Song Title: I Will Wait
+Album: Babel
+Preview Song: Unfortunately there is no preview for this song :( .
+***************
+spotify-this-song
+Song Info :
+Artist: Backstreet Boys
+Song Title: I Want It That Way
+Album: The Hits--Chapter One
+Preview Song: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=145a04a9966d45b58fdc41b17c3f7db6
+***************
+concert-this
+Next Upcoming Event Info :
+Artist: Lady Gaga
+Venue: LADY GAGA ENIGMA
+Location: Las Vegas, NV
+Date: 01/23/2019
+***************
+movie-this
+Movie Info :
+Title: Pan's Labyrinth
+Year: 2006
+IMDB Rating: 8.2
+Rotten Tomatoes Score: 95%
+Country: Spain, Mexico, USA
+Language: Spanish
+Plot: In the falangist Spain of 1944, the bookish young stepdaughter of a sadistic army officer escapes into an eerie but captivating fantasy world.
+Actors: Ivana Baquero, Sergi López, Maribel Verdú, Doug Jones
+***************
+concert-this
+Next Upcoming Event Info :
+Artist: Lady Gaga
+Venue: LADY GAGA ENIGMA
+Location: Las Vegas, NV
+Date: 01/23/2019
+***************
