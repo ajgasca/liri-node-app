@@ -199,3 +199,35 @@ function filmSearch(userInput) {
         });
          
 }
+
+
+function randomCommand() {
+
+    fs.readFile("./random.txt", "utf8", function(error, data) {
+
+        if(error) {
+            return console.log(error);
+        }
+
+        let dataArr = data.split(",");
+
+        if(dataArr[0] === "spotify-this-song") {
+
+            let randomSong = dataArr[1];
+
+            songSearch(randomSong);
+        }
+        else if(dataArr[0] === "movie-this") {
+
+            let randomMovie = dataArr[1];
+
+            filmSearch(randomMovie);
+        }
+        else if(dataArr[0] === 'concert-this') {
+
+            let randomConcert = dataArr[1];
+
+            concertSearch(randomConcert);
+        }
+    });
+}

@@ -93,3 +93,35 @@ Language: Spanish, English, Norwegian, Japanese
 Plot: A story that chronicles a year in the life of a middle-class family's maid in Mexico City in the early 1970s.
 Actors: Yalitza Aparicio, Marina de Tavira, Diego Cortina Autrey, Carlos Peralta
 ***************
+concert-this
+Next Upcoming Event Info :
+Artist: Gregory Alan Isakov
+Venue: Mr Smalls Theatre
+Location: Millvale, PA
+Date: 01/22/2019
+***************
+concert-this
+Next Upcoming Event Info :
+Artist: Lady Gaga
+Venue: LADY GAGA ENIGMA
+Location: Las Vegas, NV
+Date: 01/22/2019
+***************
+movie-this
+Movie Info :
+Title: Mr. Nobody
+Year: 2009
+IMDB Rating: 7.9
+Rotten Tomatoes Score: 67%
+Country: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+***************
+spotify-this-song
+Song Info :
+Artist: Backstreet Boys
+Song Title: I Want It That Way
+Album: The Hits--Chapter One
+Preview Song: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=145a04a9966d45b58fdc41b17c3f7db6
+***************
