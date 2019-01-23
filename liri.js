@@ -14,13 +14,13 @@ const fs = require("fs");
 
 let nodeArguments = process.argv;
 
-let command = process.argv[2];
+let liriCommand = process.argv[2];
 
 let userInput = '';
 
     for(let i = 3; i < nodeArguments.length; i++) {
         if (i > 3 && i < nodeArguments.length) {
-            userInput = userInput + nodeArguments[i];
+            userInput = userInput + "+" + nodeArguments[i];
         }
         else {
             userInput += nodeArguments[i];
@@ -28,7 +28,7 @@ let userInput = '';
     }
 
 
-switch (command) {
+switch (liriCommand) {
     case 'concert-this':
         concertSearch(userInput);
         break;
@@ -53,14 +53,34 @@ function concertSearch(userInput) {
     axios.get(queryUrl).then(
 
         function(response) {
-            if (response.data[0] === undefined) {
+            let concert = response.data[0];
+            if (response === undefined) {
                 console.log("Unfortunately at this time there are NO upcoming events for this artist. Please search another one!");
             }
             else {
-                
+                console.log("*******NEXT UPCOMING EVENT INFO*******");
+                console.log("Venue:" + " " + concert.venue.name);
+                console.log("Location:" + " " + concert.venue.city + "," + " " + concert.venue.region);
+                let concertDate = moment(response.datetime).format("MM/DD/YYYY");
+                console.log("Date:" + " " + concertDate);
+                console.log("**************************************");
+                let logConcert = "Next Upcoming Event Info :"+"\n" + "Artist: " + concert.lineup[0]+"\n"
+                + "Venue: " + concert.venue.name+"\n" + "Location: " + concert.venue.city + "," + " " + concert.venue.region+"\n" + "Date: " + concertDate+"\n" + "***************"+"\n";
+                fs.appendFile("log.txt", logConcert, function(err) {
+                    if(err) {
+                        console.log(err);
+                    }
+                    else {
+                        console.log("Concert added to the log!");
+                    }
+                })
             }
         }
-    )
+    ).catch(function (error) {
+        console.log(error);
+    });
 }
+
+
 
 
